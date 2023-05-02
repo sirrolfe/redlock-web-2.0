@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/redlock-web-2.0.git'
+                git 'https://github.com/sirrolfe/redlock-web-2.0.git'
             }
         }
 
